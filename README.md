@@ -58,11 +58,13 @@ Server default berjalan pada `http://localhost:8080`.
 - Upload memerlukan ImageKit; URL dan `fileId` disimpan ke `foto_anggota.link_foto` dan `foto_anggota.id_file`.
 - CORS `*` hanya untuk memudahkan pengujian lokal. Batasi `FRONTEND_ORIGIN` untuk deployment.
 - Endpoint login ini memverifikasi kredensial dan mengembalikan data anggota, tetapi belum menerbitkan token/session. Tambahkan autentikasi token jika endpoint privat perlu dilindungi.
+
+## Setup
 - melakukan cloning git
-  gitclon (masukin link git ulpi)
+  `git clone https://github.com/budi25dhar/webkelompok.git`
 - pastikan go lang sudah terinstall
-- file .env.example diubah menjadi --> .env
+- file `.env.example` diubah menjadi --> `.env`
 - mengganti variabel
 - melakukan set up go 
-  "go get webklompok"
-  "go run."
+  `go get webklompok`
+  `go run.`
